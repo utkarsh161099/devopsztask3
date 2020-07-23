@@ -44,7 +44,7 @@ spec:
         app: php
     spec:
       containers:
-      - image: shivam161099/apache-php-python:v1
+      - image: shivam161099/apache-php-python
         name: php
         ports:
         - containerPort: 32000
